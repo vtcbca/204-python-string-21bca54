@@ -8,13 +8,16 @@ def createList():
         l.append(s)
         
 def length(l):
+    s=[]
     co=0
     for i in l:
         for j in i:
             co=co+1
-        print(co)
-        co-=co
-    
+        if co%2==0:
+            s.append(i)
+        co=0
+    return s
 
 createList()
-length(l)
+ans=length(l)
+print(ans)
