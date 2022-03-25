@@ -16,7 +16,7 @@ def create1List():
         s2=input("Enter Address:")
         l2.append(s2)
     for i in range(3):
-        print(l1[i],"-->",l2[i])
+        print(l1[i],"Live in",l2[i])
                    
 a=create1List()
 
